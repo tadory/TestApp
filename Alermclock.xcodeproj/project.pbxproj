@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D22EBB7719B86CB700E2E46A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22EBB7619B86CB700E2E46A /* Foundation.framework */; };
+		D22EBB7919B86CB700E2E46A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22EBB7819B86CB700E2E46A /* CoreGraphics.framework */; };
+		D22EBB7B19B86CB700E2E46A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22EBB7A19B86CB700E2E46A /* UIKit.framework */; };
+		D22EBB8119B86CB700E2E46A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D22EBB7F19B86CB700E2E46A /* InfoPlist.strings */; };
+		D22EBB8319B86CB700E2E46A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D22EBB8219B86CB700E2E46A /* main.m */; };
+		D22EBB8719B86CB700E2E46A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D22EBB8619B86CB700E2E46A /* AppDelegate.m */; };
+		D22EBB8A19B86CB700E2E46A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22EBB8819B86CB700E2E46A /* Main.storyboard */; };
+		D22EBB8D19B86CB700E2E46A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D22EBB8C19B86CB700E2E46A /* ViewController.m */; };
+		D22EBB8F19B86CB700E2E46A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22EBB8E19B86CB700E2E46A /* Images.xcassets */; };
+		D22EBB9619B86CB700E2E46A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22EBB9519B86CB700E2E46A /* XCTest.framework */; };
+		D22EBB9719B86CB700E2E46A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22EBB7619B86CB700E2E46A /* Foundation.framework */; };
+		D22EBB9819B86CB700E2E46A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22EBB7A19B86CB700E2E46A /* UIKit.framework */; };
+		D22EBBA019B86CB700E2E46A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D22EBB9E19B86CB700E2E46A /* InfoPlist.strings */; };
+		D22EBBA219B86CB700E2E46A /* AlermclockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22EBBA119B86CB700E2E46A /* AlermclockTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D22EBB9919B86CB700E2E46A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D22EBB6B19B86CB700E2E46A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D22EBB7219B86CB700E2E46A;
+			remoteInfo = Alermclock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D22EBB7319B86CB700E2E46A /* Alermclock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alermclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22EBB7619B86CB700E2E46A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D22EBB7819B86CB700E2E46A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D22EBB7A19B86CB700E2E46A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D22EBB7E19B86CB700E2E46A /* Alermclock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alermclock-Info.plist"; sourceTree = "<group>"; };
+		D22EBB8019B86CB700E2E46A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D22EBB8219B86CB700E2E46A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D22EBB8419B86CB700E2E46A /* Alermclock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alermclock-Prefix.pch"; sourceTree = "<group>"; };
+		D22EBB8519B86CB700E2E46A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D22EBB8619B86CB700E2E46A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D22EBB8919B86CB700E2E46A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D22EBB8B19B86CB700E2E46A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D22EBB8C19B86CB700E2E46A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D22EBB8E19B86CB700E2E46A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D22EBB9419B86CB700E2E46A /* AlermclockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlermclockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22EBB9519B86CB700E2E46A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D22EBB9D19B86CB700E2E46A /* AlermclockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlermclockTests-Info.plist"; sourceTree = "<group>"; };
+		D22EBB9F19B86CB700E2E46A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D22EBBA119B86CB700E2E46A /* AlermclockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlermclockTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D22EBB7019B86CB700E2E46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22EBB7919B86CB700E2E46A /* CoreGraphics.framework in Frameworks */,
+				D22EBB7B19B86CB700E2E46A /* UIKit.framework in Frameworks */,
+				D22EBB7719B86CB700E2E46A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22EBB9119B86CB700E2E46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22EBB9619B86CB700E2E46A /* XCTest.framework in Frameworks */,
+				D22EBB9819B86CB700E2E46A /* UIKit.framework in Frameworks */,
+				D22EBB9719B86CB700E2E46A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D22EBB6A19B86CB700E2E46A = {
+			isa = PBXGroup;
+			children = (
+				D22EBB7C19B86CB700E2E46A /* Alermclock */,
+				D22EBB9B19B86CB700E2E46A /* AlermclockTests */,
+				D22EBB7519B86CB700E2E46A /* Frameworks */,
+				D22EBB7419B86CB700E2E46A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D22EBB7419B86CB700E2E46A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D22EBB7319B86CB700E2E46A /* Alermclock.app */,
+				D22EBB9419B86CB700E2E46A /* AlermclockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D22EBB7519B86CB700E2E46A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D22EBB7619B86CB700E2E46A /* Foundation.framework */,
+				D22EBB7819B86CB700E2E46A /* CoreGraphics.framework */,
+				D22EBB7A19B86CB700E2E46A /* UIKit.framework */,
+				D22EBB9519B86CB700E2E46A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D22EBB7C19B86CB700E2E46A /* Alermclock */ = {
+			isa = PBXGroup;
+			children = (
+				D22EBB8519B86CB700E2E46A /* AppDelegate.h */,
+				D22EBB8619B86CB700E2E46A /* AppDelegate.m */,
+				D22EBB8819B86CB700E2E46A /* Main.storyboard */,
+				D22EBB8B19B86CB700E2E46A /* ViewController.h */,
+				D22EBB8C19B86CB700E2E46A /* ViewController.m */,
+				D22EBB8E19B86CB700E2E46A /* Images.xcassets */,
+				D22EBB7D19B86CB700E2E46A /* Supporting Files */,
+			);
+			path = Alermclock;
+			sourceTree = "<group>";
+		};
+		D22EBB7D19B86CB700E2E46A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D22EBB7E19B86CB700E2E46A /* Alermclock-Info.plist */,
+				D22EBB7F19B86CB700E2E46A /* InfoPlist.strings */,
+				D22EBB8219B86CB700E2E46A /* main.m */,
+				D22EBB8419B86CB700E2E46A /* Alermclock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D22EBB9B19B86CB700E2E46A /* AlermclockTests */ = {
+			isa = PBXGroup;
+			children = (
+				D22EBBA119B86CB700E2E46A /* AlermclockTests.m */,
+				D22EBB9C19B86CB700E2E46A /* Supporting Files */,
+			);
+			path = AlermclockTests;
+			sourceTree = "<group>";
+		};
+		D22EBB9C19B86CB700E2E46A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D22EBB9D19B86CB700E2E46A /* AlermclockTests-Info.plist */,
+				D22EBB9E19B86CB700E2E46A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D22EBB7219B86CB700E2E46A /* Alermclock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22EBBA519B86CB700E2E46A /* Build configuration list for PBXNativeTarget "Alermclock" */;
+			buildPhases = (
+				D22EBB6F19B86CB700E2E46A /* Sources */,
+				D22EBB7019B86CB700E2E46A /* Frameworks */,
+				D22EBB7119B86CB700E2E46A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alermclock;
+			productName = Alermclock;
+			productReference = D22EBB7319B86CB700E2E46A /* Alermclock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D22EBB9319B86CB700E2E46A /* AlermclockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22EBBA819B86CB700E2E46A /* Build configuration list for PBXNativeTarget "AlermclockTests" */;
+			buildPhases = (
+				D22EBB9019B86CB700E2E46A /* Sources */,
+				D22EBB9119B86CB700E2E46A /* Frameworks */,
+				D22EBB9219B86CB700E2E46A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D22EBB9A19B86CB700E2E46A /* PBXTargetDependency */,
+			);
+			name = AlermclockTests;
+			productName = AlermclockTests;
+			productReference = D22EBB9419B86CB700E2E46A /* AlermclockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D22EBB6B19B86CB700E2E46A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "田所　龍";
+				TargetAttributes = {
+					D22EBB9319B86CB700E2E46A = {
+						TestTargetID = D22EBB7219B86CB700E2E46A;
+					};
+				};
+			};
+			buildConfigurationList = D22EBB6E19B86CB700E2E46A /* Build configuration list for PBXProject "Alermclock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D22EBB6A19B86CB700E2E46A;
+			productRefGroup = D22EBB7419B86CB700E2E46A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D22EBB7219B86CB700E2E46A /* Alermclock */,
+				D22EBB9319B86CB700E2E46A /* AlermclockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D22EBB7119B86CB700E2E46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22EBB8F19B86CB700E2E46A /* Images.xcassets in Resources */,
+				D22EBB8119B86CB700E2E46A /* InfoPlist.strings in Resources */,
+				D22EBB8A19B86CB700E2E46A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22EBB9219B86CB700E2E46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22EBBA019B86CB700E2E46A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D22EBB6F19B86CB700E2E46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22EBB8D19B86CB700E2E46A /* ViewController.m in Sources */,
+				D22EBB8719B86CB700E2E46A /* AppDelegate.m in Sources */,
+				D22EBB8319B86CB700E2E46A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22EBB9019B86CB700E2E46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22EBBA219B86CB700E2E46A /* AlermclockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D22EBB9A19B86CB700E2E46A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D22EBB7219B86CB700E2E46A /* Alermclock */;
+			targetProxy = D22EBB9919B86CB700E2E46A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D22EBB7F19B86CB700E2E46A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22EBB8019B86CB700E2E46A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D22EBB8819B86CB700E2E46A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22EBB8919B86CB700E2E46A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D22EBB9E19B86CB700E2E46A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22EBB9F19B86CB700E2E46A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D22EBBA319B86CB700E2E46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D22EBBA419B86CB700E2E46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D22EBBA619B86CB700E2E46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alermclock/Alermclock-Prefix.pch";
+				INFOPLIST_FILE = "Alermclock/Alermclock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D22EBBA719B86CB700E2E46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alermclock/Alermclock-Prefix.pch";
+				INFOPLIST_FILE = "Alermclock/Alermclock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D22EBBA919B86CB700E2E46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alermclock.app/Alermclock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alermclock/Alermclock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AlermclockTests/AlermclockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D22EBBAA19B86CB700E2E46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Alermclock.app/Alermclock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Alermclock/Alermclock-Prefix.pch";
+				INFOPLIST_FILE = "AlermclockTests/AlermclockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D22EBB6E19B86CB700E2E46A /* Build configuration list for PBXProject "Alermclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22EBBA319B86CB700E2E46A /* Debug */,
+				D22EBBA419B86CB700E2E46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22EBBA519B86CB700E2E46A /* Build configuration list for PBXNativeTarget "Alermclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22EBBA619B86CB700E2E46A /* Debug */,
+				D22EBBA719B86CB700E2E46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D22EBBA819B86CB700E2E46A /* Build configuration list for PBXNativeTarget "AlermclockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22EBBA919B86CB700E2E46A /* Debug */,
+				D22EBBAA19B86CB700E2E46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D22EBB6B19B86CB700E2E46A /* Project object */;
+}

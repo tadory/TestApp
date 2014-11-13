@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D22EBB7719B86CB700E2E46A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22EBB7619B86CB700E2E46A /* Foundation.framework */; };
 		D22EBB7919B86CB700E2E46A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22EBB7819B86CB700E2E46A /* CoreGraphics.framework */; };
-		D22EBB7B19B86CB700E2E46A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22EBB7A19B86CB700E2E46A /* UIKit.framework */; };
 		D22EBB8119B86CB700E2E46A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D22EBB7F19B86CB700E2E46A /* InfoPlist.strings */; };
 		D22EBB8319B86CB700E2E46A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D22EBB8219B86CB700E2E46A /* main.m */; };
 		D22EBB8719B86CB700E2E46A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D22EBB8619B86CB700E2E46A /* AppDelegate.m */; };
@@ -18,9 +17,9 @@
 		D22EBB8F19B86CB700E2E46A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22EBB8E19B86CB700E2E46A /* Images.xcassets */; };
 		D22EBB9619B86CB700E2E46A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22EBB9519B86CB700E2E46A /* XCTest.framework */; };
 		D22EBB9719B86CB700E2E46A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22EBB7619B86CB700E2E46A /* Foundation.framework */; };
-		D22EBB9819B86CB700E2E46A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22EBB7A19B86CB700E2E46A /* UIKit.framework */; };
 		D22EBBA019B86CB700E2E46A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D22EBB9E19B86CB700E2E46A /* InfoPlist.strings */; };
 		D22EBBA219B86CB700E2E46A /* AlermclockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D22EBBA119B86CB700E2E46A /* AlermclockTests.m */; };
+		D2E0B1BA1A14C5A900D28BA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E0B1B91A14C5A900D28BA8 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +36,6 @@
 		D22EBB7319B86CB700E2E46A /* Alermclock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alermclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22EBB7619B86CB700E2E46A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D22EBB7819B86CB700E2E46A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D22EBB7A19B86CB700E2E46A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D22EBB7E19B86CB700E2E46A /* Alermclock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alermclock-Info.plist"; sourceTree = "<group>"; };
 		D22EBB8019B86CB700E2E46A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D22EBB8219B86CB700E2E46A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,6 +51,7 @@
 		D22EBB9D19B86CB700E2E46A /* AlermclockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlermclockTests-Info.plist"; sourceTree = "<group>"; };
 		D22EBB9F19B86CB700E2E46A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D22EBBA119B86CB700E2E46A /* AlermclockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlermclockTests.m; sourceTree = "<group>"; };
+		D2E0B1B91A14C5A900D28BA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E0B1BA1A14C5A900D28BA8 /* UIKit.framework in Frameworks */,
 				D22EBB7919B86CB700E2E46A /* CoreGraphics.framework in Frameworks */,
-				D22EBB7B19B86CB700E2E46A /* UIKit.framework in Frameworks */,
 				D22EBB7719B86CB700E2E46A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +70,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D22EBB9619B86CB700E2E46A /* XCTest.framework in Frameworks */,
-				D22EBB9819B86CB700E2E46A /* UIKit.framework in Frameworks */,
 				D22EBB9719B86CB700E2E46A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,9 +99,9 @@
 		D22EBB7519B86CB700E2E46A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D2E0B1B91A14C5A900D28BA8 /* UIKit.framework */,
 				D22EBB7619B86CB700E2E46A /* Foundation.framework */,
 				D22EBB7819B86CB700E2E46A /* CoreGraphics.framework */,
-				D22EBB7A19B86CB700E2E46A /* UIKit.framework */,
 				D22EBB9519B86CB700E2E46A /* XCTest.framework */,
 			);
 			name = Frameworks;
@@ -460,6 +458,7 @@
 				D22EBBA719B86CB700E2E46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D22EBBA819B86CB700E2E46A /* Build configuration list for PBXNativeTarget "AlermclockTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +467,7 @@
 				D22EBBAA19B86CB700E2E46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
